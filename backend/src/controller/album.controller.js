@@ -6,7 +6,7 @@ export const getAllAlbums = async (req, res, next) => {
     } catch (error) {
         next(error);
     }
-}
+};
 
 export const getAlbumById = async (req, res, next) => {
     try {
@@ -19,4 +19,4 @@ export const getAlbumById = async (req, res, next) => {
     } catch (error) {
         next(error);
     }
-}
+};
